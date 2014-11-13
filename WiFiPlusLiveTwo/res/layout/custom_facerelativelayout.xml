@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tvmining.com.chat.FaceRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FaceRelativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/rl_input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/chat_footer_bg" >
+
+        <ImageView
+            android:id="@+id/btn_more"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/chat_more_btn_bg" />
+        
+        <ImageView
+            android:id="@+id/btn_face"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@id/btn_more"
+            android:layout_marginRight="8dip"
+            android:src="@drawable/chat_send_btn" />
+
+        <ImageView
+            android:id="@+id/chatedit"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/chat_edit_bg" />
+        
+        <EditText
+            android:id="@+id/et_sendmessage"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="3dp"
+            android:layout_toLeftOf="@id/btn_face"
+            android:layout_toRightOf="@id/chatedit"
+            android:background="@drawable/login_edit_normal"
+            android:singleLine="true"
+            android:hint="@string/interact_default_word"
+            android:textColorHint="@color/Grey"
+            android:imeOptions="actionSend"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ll_facechoose"
+        android:layout_width="fill_parent"
+        android:layout_height="240dip"
+        android:layout_below="@id/rl_input"
+        android:background="#f6f5f5"
+        android:visibility="gone" >
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_contains"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:id="@+id/iv_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="6dip"
+            android:gravity="center"
+            android:orientation="horizontal" >
+        </LinearLayout>
+        
+        <Button
+            android:id="@+id/interactsendbtn"
+            android:layout_width="60dip"
+            android:layout_height="30dip"
+            android:gravity="center"
+            android:text="@string/interact_send"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="3dip"
+            android:background="@drawable/answer_submit_btn_bg" />
+        
+    </RelativeLayout>
+
+</com.tvmining.com.chat.FaceRelativeLayout>

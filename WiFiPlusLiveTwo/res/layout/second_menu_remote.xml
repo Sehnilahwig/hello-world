@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:visibility="invisible">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+       <TextView
+		    android:layout_width="match_parent"
+		    android:layout_height="60dip"
+		    android:id="@id/remote_feedback"
+		    android:gravity="center"
+		    android:textSize="20sp"
+		    android:textColor="@color/text_color_selector_dark"
+		    android:background="@drawable/tab_expand_btn_bg"
+		    android:text="@string/second_local_feedback_open" />
+        
+
+        <TextView
+		    android:layout_width="match_parent"
+		    android:layout_height="60dip"
+		    android:id="@id/remote_mainhome"
+		    android:gravity="center"
+		    android:textSize="20sp"
+		    android:textColor="@color/text_color_selector_dark"
+		    android:background="@drawable/tab_expand_btn_bg"
+		    android:text="@string/second_local_mainhome" 
+		    android:layout_below="@id/remote_feedback"/>
+
+        
+         <TextView
+		    android:layout_width="match_parent"
+		    android:layout_height="60dip"
+		    android:id="@id/remote_senior"
+		    android:gravity="center"
+		    android:textSize="20sp"
+		    android:textColor="@color/text_color_selector_dark"
+		    android:background="@drawable/tab_expand_btn_bg"
+		    android:text="@string/second_local_senior"
+		    android:layout_below="@id/remote_mainhome" />
+
+        
+    </RelativeLayout>
+
+</FrameLayout>

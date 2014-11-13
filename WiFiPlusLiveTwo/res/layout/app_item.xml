@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="240dip"
+    android:layout_height="80dip"
+    android:gravity="center_vertical"
+    android:background="@android:color/transparent"
+    >
+    
+    
+    <Button 
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:id="@+id/app"
+        android:gravity="center"/>
+</RelativeLayout>

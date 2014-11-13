@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="313dip"
+    android:layout_height="177dip"
+    android:layout_gravity="center"
+    android:background="@drawable/login_background">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/prompt"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="10dip"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:text="@string/prompt" />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="10dip"
+        android:id="@+id/promptmessage"
+        android:layout_below="@id/prompt"
+        android:textColor="@android:color/black"
+        android:text="@string/downloadrepeatprompt" />   
+	
+	<FrameLayout 
+        android:layout_width="280dip"
+        android:layout_height="34dip"
+        android:id="@+id/renamelayout"
+        android:layout_below="@id/promptmessage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip" 
+        >
+        <EditText 
+            android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:id="@+id/rename"
+	        android:singleLine="true"
+	        android:ellipsize="end"
+	        android:paddingRight="30dip"
+	        android:paddingLeft="1dip"
+	        android:background="@android:color/white"
+	        android:textColor="@android:color/black"
+            />
+        <ImageView 
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/clear"
+	        android:paddingRight="2dip"
+	        android:layout_gravity="right|center_vertical"
+	        android:gravity="center"
+	        android:src="@drawable/clear"
+            />
+    </FrameLayout>
+	<RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_below="@id/renamelayout"   
+        android:layout_marginTop="33dip"   
+        android:layout_marginLeft="3dip"
+        android:layout_marginRight="3dip" >
+	    <Button
+	        android:layout_width="156dip"
+	        android:layout_height="50dip"
+	        android:layout_alignParentLeft="true"
+	        android:background="@drawable/uploadcancel_btn"
+	        android:id="@+id/cancel"
+	        android:text="@string/cancel"
+	        android:textSize="20sp"
+	        android:textColor="#157EFB" />
+		<Button
+	        android:layout_width="156dip"
+	        android:layout_height="50dip"
+	        android:layout_alignParentRight="true"
+	        android:background="@drawable/uploadok_btn"
+	        android:id="@+id/confirm"
+	        android:text="@string/ensure"
+	        android:textSize="20sp"
+	        android:textColor="#157EFB" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="fill_parent" android:layout_width="fill_parent">
+	<RelativeLayout
+	    android:id="@id/onlinetoplayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+		<RelativeLayout
+		    android:id="@id/onlinepackagename"
+	        android:layout_width="fill_parent"
+	        android:layout_height="65dip"
+	        android:layout_alignParentTop="true"
+	        android:background="@drawable/local_title_bg" >
+	
+	        <TextView
+	            android:id="@id/icename"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentLeft="true"
+	            android:layout_centerVertical="true"
+	            android:layout_marginLeft="5dip"
+	            android:textColor="@android:color/white"
+	            android:textSize="20sp" />
+			
+	        <ImageView
+	            android:id="@id/onlineeye"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentRight="true"
+	            android:layout_centerVertical="true"
+	            android:layout_marginTop="5dip"
+	            android:layout_marginBottom="5dip"
+	            android:src="@drawable/eye_btn_bg"
+	            android:visibility="gone"
+	            android:layout_marginRight="5dip" />
+	    </RelativeLayout>
+	    
+		<com.tvmining.wifiplus.swipelistview.SwipeListView
+		    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+		    android:id="@id/packagelistview"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_below="@id/onlinepackagename"
+		    android:layout_centerInParent="true"
+		    android:fadingEdge="none"
+		    android:fadingEdgeLength="0dp"
+		    android:groupIndicator="@null"
+		    android:listSelector="#00000000"
+		    android:visibility="gone"
+		    swipe:swipeBackView="@+id/back"
+		    swipe:swipeCloseAllItemsWhenMoveList="true"
+		    swipe:swipeFrontView="@+id/front"
+		    swipe:swipeMode="left" />
+
+		<RelativeLayout
+                    android:id="@+id/unconnectedlayout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@color/black"
+                    android:layout_below="@id/onlinepackagename" >
+        
+            <TextView
+		            android:id="@+id/onlinemasktextview"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/not_connect_ice"
+		            android:gravity="center"
+		            android:layout_centerInParent="true"
+		             />
+            
+	        <ImageView
+		            android:id="@+id/remotemaskimageview"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:text="@string/remote_not_user"
+		            android:layout_centerHorizontal="true"
+		            android:layout_marginBottom="10dip"
+		            android:layout_above="@id/onlinemasktextview"
+		            android:src="@drawable/unused" />
+	        
+        </RelativeLayout>
+		<ImageView 
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:background="#b0000000"
+		        android:visibility="gone"
+		        android:id="@+id/onlinemaskview"
+		        />
+	</RelativeLayout>
+	<com.tvmining.wifiplus.view.WaterFallView
+                android:id="@id/waterfallonline"
+                android:visibility="gone"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+	
+</RelativeLayout>

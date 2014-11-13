@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="65dip"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/local_title_bg"
+        android:id="@+id/uploadtitle" >
+
+	    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/uploadquality"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dip"
+            android:layout_marginBottom="5dip"
+            android:layout_marginLeft="15dip"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:background="@drawable/back_btn"
+            android:layout_marginRight="5dip" />
+        
+    </RelativeLayout>
+    
+    <com.tvmining.wifiplus.view.UITableView2 
+	    android:id="@+id/uploadtableview" 
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="20dip"
+	    android:layout_below="@id/uploadtitle"
+	    android:layout_marginLeft="10dip"
+       	android:layout_marginRight="10dip"
+	    style="@style/UITableView"
+	    />
+        
+</RelativeLayout>

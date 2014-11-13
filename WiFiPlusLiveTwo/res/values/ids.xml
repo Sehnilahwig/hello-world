@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+**
+** Copyright 2007, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources>
+
+    <item name="interact" type="id"/>
+    <item name="remote" type="id"/>
+    <item name="online" type="id"/>
+    <item name="local" type="id"/>
+    <item name="tabtitle" type="id"/>
+    <item name="tabicon" type="id"/>
+    <item name="interactivesecondmenu" type="id"/>
+    <item name="remotesecondmenu" type="id"/>
+    <item name="onlinesecondmenu" type="id"/>
+    <item name="localsecondmenu" type="id"/>
+    <item name="setting" type="id"/>
+    <item name="mainframe" type="id"/>
+    <item name="settingbtn" type="id"/>
+    <item name="settingback" type="id"/>
+    <item name="expandable_toggle_button" type="id"/>
+    <item name="expandable" type="id"/>
+    <item name="localtitle" type="id"/>
+    <item name="locallist" type="id"/>
+    <item name="sampletext" type="id"/>
+    <item name="waterlist" type="id"/>
+    <item name="waterfalllocal" type="id"/>
+    <item name="waterfallonline" type="id"/>
+	<item name="waterfallback" type="id"/>
+	<item name="localcontent" type="id"/>
+	<item name="connecting" type="id"/>
+	<item name="icename" type="id"/>
+	<item name="packagelistview" type="id"/>
+	<item name="onlinepackagename" type="id"/>
+	<item name="coverview" type="id"/>
+	<item name="packagenametext" type="id"/>
+	<item name="zoomthumbnail" type="id"/>
+	<item name="packagename" type="id"/>
+	<item name="pageinfo" type="id"/>
+	<item name="pageinfo2" type="id"/>
+	<item name="back_water" type="id"/>
+	<item name="viewPager" type="id"/>
+	
+	<item name="maskview" type="id"/>
+	<item name="checked" type="id"/>
+	<item name="thumbnail" type="id"/>
+	<item name="bottommenu" type="id"/>
+	<item name="multicolumnlayout" type="id"/>
+	<item name="onlinetoplayout" type="id"/>
+	<item name="viewlayout" type="id"/>
+	
+	<item name="packagedownload" type="id"/>
+	<item name="packagedelete" type="id"/>
+	<item name="packagetype" type="id"/>
+	<item name="packagesize" type="id"/>
+	<item name="multicolumnview" type="id"/>
+	<item name="multicolumntext" type="id"/>
+	<item name="localpackagename" type="id"/>
+	<item name="localprogressbar" type="id"/>
+	<item name="localpackageview" type="id"/>
+	
+	<item name="localpackagesize" type="id"/>
+	<item name="localpackagetype" type="id"/>
+	<item name="localpackageupload" type="id"/>
+	<item name="localpackagedelete" type="id"/>
+	<item name="localpackageshare" type="id"/>
+	<item name="localdownloadpackagedelete" type="id"/>
+	<item name="localuploadpackagedelete" type="id"/>
+	<item name="loginview" type="id"/>
+	<item name="logineditlayout" type="id"/>
+	<item name="qrcodecreateview" type="id"/>
+	<!-- start zxing -->
+    <!-- Messages IDs -->
+    <item name="auto_focus" type="id"/>
+    <item name="decode" type="id"/>
+    <item name="decode_failed" type="id"/>
+    <item name="decode_succeeded" type="id"/>
+    <item name="encode_failed" type="id"/>
+    <item name="encode_succeeded" type="id"/>
+    <item name="launch_product_query" type="id"/>
+    <item name="quit" type="id"/>
+    <item name="restart_preview" type="id"/>
+    <item name="return_scan_result" type="id"/>
+    <item name="search_book_contents_failed" type="id"/>
+    <item name="search_book_contents_succeeded" type="id"/>
+    <!-- end zxing -->
+    
+    <item name="localsetting" type="id"/>
+    <item name="localeye" type="id"/>
+    <item name="localhead" type="id"/>
+    <item name="localusername" type="id"/>
+    <item name="onlineeye" type="id"/>
+    <item name="qrcodeview" type="id"/>
+    <item name="qrcodeviewlayout" type="id"/>
+    <item name="interactcamera" type="id"/>
+    
+    <item name="open" type="id"/>
+    <item name="remote_senior" type="id"/>
+    <item name="remote_mainhome" type="id"/>
+    <item name="remote_feedback" type="id"/>
+    <item name="aboutback" type="id"/>
+    <item name="image1" type="id"/>
+    <item name="image2" type="id"/>
+    <item name="image3" type="id"/>
+    <item name="image4" type="id"/>
+    <item name="image5" type="id"/>
+    <item name="interactcontrol" type="id"/>
+    <item name="interactcolormenu" type="id"/>
+    <item name="interactsizemenu" type="id"/>
+    
+    <item name="editcolorwhite" type="id"/>
+    <item name="editcolorblack" type="id"/>
+    <item name="editcolorblue" type="id"/>
+    <item name="editcolorred" type="id"/>
+    <item name="editcoloryellow" type="id"/>
+    <item name="editcolorgreen" type="id"/>
+    <item name="toplayout" type="id"/>
+    <item name="bottomlayout" type="id"/>
+    <item name="editmaskview" type="id"/>
+    <item name="editsizesmall" type="id"/>
+    <item name="editsizemiddle" type="id"/>
+    <item name="editsizelarge" type="id"/>
+    <item name="onlinechangepermission" type="id"/>
+    <item name="onlinelockscreen" type="id"/>
+    <item name="interactmaskview" type="id"/>
+    <item name="interactgallerycamera" type="id"/>
+    <item name="interactgalleryphoto" type="id"/>
+    <item name="interactcameraview" type="id"/>
+    <item name="interactfacemaskview" type="id"/>
+    <item name="cameraimageview" type="id"/>
+    <item name="aboutview" type="id"/>
+    <item name="localpackagedevider1" type="id"/>
+    <item name="localpackagedevider2" type="id"/>
+    <item name="onlinepackagedevider" type="id"/>
+	
+</resources>

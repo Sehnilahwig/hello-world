@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World!</string>
+    <string name="app_name">教学Q次方</string>
+    <string name="title">教学Q次方</string>
+    
+    <string name="scan_label">扫一扫</string>
+    <string name="interact_label">互动</string>
+    <string name="remote_label">遥控器</string>
+    <string name="online_label">在线</string>
+    <string name="local_label">本地</string>
+    
+     <string name="interact_id">interacttab</string>
+    <string name="remote_id">remotetab</string>
+    <string name="online_id">onlinetab</string>
+    <string name="local_id">localtab</string>
+    <string name="scan_id">scantab</string>
+    <string name="remotecontrol">遥控器</string>
+    <string name="package_remove_title">删除</string>
+	<string name="package_remove_content">确认删除包吗？</string>
+	<string name="package_remove_single_file">确认删除文件吗？</string>
+	<string name="package_remove_yes">是</string>
+	<string name="package_remove_no">否</string>
+	<string name="package_remove_suc">删除下载包成功</string>
+    <string name="match">选屏</string>
+    <string name="okinfo">遥控器命令:确定 已发送</string>
+    <string name="pauseinfo">遥控器命令:暂停 已发送</string>
+    <string name="updirectioninfo">遥控器命令:向上 已发送</string>
+    <string name="downdirectioninfo">遥控器命令:向下 已发送</string>
+    <string name= "leftdirectioninfo">遥控器命令:向左 已发送</string>
+    <string name="rightdirectioninfo">遥控器命令:向右 已发送</string>
+    <string name="closeinfo">遥控器命令:取消 已发送</string>
+    <string name="zoomininfo">遥控器命令:放大 已发送</string>
+    <string name="zoomoutinfo">遥控器命令:缩小 已发送</string>
+    
+    
+    <string name="oneinfo">遥控器命令:1 已发送</string>
+    <string name="ctrloneinfo">遥控器命令:CTRL-1 已发送</string>
+    
+    <string name="secondinfo">遥控器命令:2 已发送</string>
+    <string name="ctrlsecondinfo">遥控器命令:CTRL-2 已发送</string>
+
+    <string name="thirdinfo">遥控器命令:3 已发送</string>
+    <string name="ctrlthirdinfo">遥控器命令:CTRL-3 已发送</string>
+    
+    <string name="fourthinfo">遥控器命令:4 已发送</string>
+    <string name="ctrlfourthinfo">遥控器命令:CTRL-4 已发送</string>
+    
+    <string name="fifthinfo">遥控器命令:5 已发送</string>
+    <string name="ctrlfifthinfo">遥控器命令:CTRL-5 已发送</string>
+    
+    <string name="sixthinfo">遥控器命令:6 已发送</string>
+    <string name="ctrlsixthinfo">遥控器命令:CTRL-6 已发送</string>
+    
+    <string name="seventhinfo">遥控器命令:7 已发送</string>
+    <string name="ctrlseventhinfo">遥控器命令:CTRL-7 已发送</string>
+    
+    <string name="eighthinfo">遥控器命令:8 已发送</string>
+    <string name="ctrleighthinfo">遥控器命令:CTRL-8 已发送</string>
+    
+    <string name="ninthinfo">遥控器命令:9 已发送</string>
+    <string name="ctrlninthinfo">遥控器命令:CTRL-9 已发送</string>
+    
+    <string name="zeroinfo">遥控器命令:0 已发送</string>
+    <string name="ctrlzeroinfo">遥控器命令:CTRL-0 已发送</string>
+    
+    <string name="ainfo">遥控器命令:A 已发送</string>
+    <string name="ctrlainfo">遥控器命令:CTRL-A 已发送</string>
+    
+    <string name="binfo">遥控器命令:B 已发送</string>
+    <string name="ctrlbinfo">遥控器命令:CTRL-B 已发送</string>
+    
+    <string name="cinfo">遥控器命令:C 已发送</string>
+    <string name="ctrlcinfo">遥控器命令:CTRL-C 已发送</string>
+    
+    <string name="dinfo">遥控器命令:D 已发送</string>
+    <string name="ctrldinfo">遥控器命令:CTRL-D 已发送</string>
+    
+    <string name="einfo">遥控器命令:E 已发送</string>
+    <string name="ctrleinfo">遥控器命令:CTRL-E 已发送</string>
+    
+    <string name="finfo">遥控器命令:F 已发送</string>
+    <string name="ctrlfinfo">遥控器命令:CTRL-F 已发送</string>
+    
+    <string name="ginfo">遥控器命令:G 已发送</string>
+    <string name="ctrlginfo">遥控器命令:CTRL-G 已发送</string>
+    
+    <string name="hinfo">遥控器命令:H 已发送</string>
+    <string name="ctrlhinfo">遥控器命令:CTRL-H 已发送</string>
+    
+    <string name="iinfo">遥控器命令:I 已发送</string>
+    <string name="ctrliinfo">遥控器命令:CTRL-I 已发送</string>
+    
+    <string name="jinfo">遥控器命令:J 已发送</string>
+    <string name="ctrljinfo">遥控器命令:CTRL-J 已发送</string>
+    
+    <string name="leftinfo">遥控器命令:上一场景 已发送</string>
+    <string name="rightinfo">遥控器命令:下一场景 已发送</string>
+	<string name="package_remove_fail">删除下载包失败</string>
+    <string name="remotecancel">遥控器命令:取消 已发送</string>
+    <string name="sendinfo">发送消息:</string>
+    <string name="home">遥控器命令:主页 已发送</string>
+    <string name="forcefollowon">遥控器命令:锁定现场 已发送</string>
+    <string name="forcefollowoff">遥控器命令:锁定现场 已发送</string>
+    <string name="remotemenu">遥控器命令:菜单 已发送</string>
+    
+    <string name="exp1">[微笑]</string>
+    <string name="exp2">[憨笑]</string>
+    <string name="exp3">[流泪]</string>
+    <string name="exp4">[流汗]</string>
+    <string name="exp5">[疑问]</string>
+    <string name="exp6">[得意]</string>
+    <string name="exp7">[衰]</string>
+    <string name="exp8">[爱心]</string>
+    <string name="exp9">[心碎]</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="zero">0</string>
+    <string name="ctrl">Ctrl</string>
+    <string name="charabc">ABC</string>
+    <string name="num123">123</string>
+    <string name="chara">A</string>
+    <string name="charb">B</string>
+    <string name="charc">C</string>
+    <string name="chard">D</string>
+    <string name="chare">E</string>
+    <string name="charf">F</string>
+    
+    <string name="charg">G</string>
+    <string name="charh">H</string>
+    <string name="chari">I</string>
+    
+    <string name="charj">J</string>
+	<string name="package_clear_title">清除</string>
+	<string name="package_clear_content">确认清除包吗？</string>
+	<string name="single_delete_title">删除</string>
+	<string name="single_delete_content">此文件类型不能被单张删除</string>
+	<string name="single_delete_confirm">确定</string>
+	
+	<string name="mine">我上传的</string>
+	<string name="all">所有人的</string>
+	
+	<string name="share_gallery_name">相册</string>
+	<string name="share_friend_name">朋友圈</string>
+	<string name="share_weixin_name">个人</string>
+	<string name="share_push_name">推送</string>
+	<string name="push_more">推送</string>
+	
+	<string name="completed">个,已完成</string>
+    <string name="pushresource">推送资源</string>
+    <string name="not_search_screen">没有搜索到屏幕</string>
+    
+	<string name="red">红</string>
+    <string name="yellow">黄</string>
+    <string name="green">绿</string>
+    <string name="red_show">高</string>
+    <string name="yellow_show">中</string>
+    <string name="green_show">低</string>
+    <string name="share_weixin_title">微信分享</string>
+	<string name="share_weixin_content">分享失败，请检查是否已安装微信</string>
+	<string name="share_weixin_confirm">确定</string>
+	
+	<string name="not_match_screen">正在匹配屏幕,暂时不能切换状态</string>
+	<string name="version">软件版本号</string>
+	<string name="imgquality">图像质量</string>
+	<string name="defaultpassword">默认密码</string>
+	<string name="uploadquality">图片上传质量</string>
+	
+	<string name="highshare">高(2048x2048)</string>
+	<string name="middleshare">中(1024x1024)</string>
+	<string name="lowshare">低(512x512)</string>
+	
+	<string name="highupload">高(100%)</string>
+	<string name="middleupload">中(90%)</string>
+	<string name="sharequality">图片分享质量</string>
+	<string name="ptr_pull_to_refresh">Pull to refresh</string>
+    <string name="ptr_release_to_refresh">Release to refresh</string>
+    <string name="ptr_refreshing">Refreshing</string>
+    <string name="ptr_last_updated">Updated: %1$s</string>    
+    
+    <string name="package_download">下载</string>
+    <string name="package_delete">删除</string>
+    <string name="package_clear">清空</string>
+    
+    <string name="local_package_upload">上传</string>
+    <string name="local_package_delete">删除</string>
+    <string name="local_package_share">分享</string>
+    
+    <string name="prompt">提示</string>
+    <string name="cancel">取消</string>
+    <string name="logindesc">请输入环境密码</string>
+    <string name="networkexception">验证身份失败,网络异常!</string>
+    <string name="invalidpwd">密码错误!</string>
+    <string name="logining">认证连接中</string>
+    <string name="downloadrepeatprompt">当前资源包已经存在,请改名后下载</string>
+    <string name="ensure">确定</string>
+    
+    <string name="do_upload">有文件正在上传，上传完后才能执行下载操作</string>
+	<string name="do_download">有文件正在下载，下载完后才能执行上传操作</string>
+	<string name="package_downloading">文件已经添加到下载列表</string>
+	<string name="package_uploading">文件已经添加到上传列表</string>
+    
+	<string name="guide">引导</string>
+	
+	<string name="package_change_title">包更改</string>
+	<string name="package_change_content">包的内容已改变</string>
+	<string name="package_change_redownload">重新下载</string>
+	<string name="package_change_remove">删除下载</string>
+	
+	<string name="delete">删除</string>
+	<string name="confirm">确认</string>
+	
+    <string name="gallery">相册</string>
+    <string name="ccdcamera">摄像头</string>
+    <string name="back">返回</string>
+	<string name="condition">条款</string>
+    <string name="menu">菜单</string>
+    
+    <string name="remote_forward">上一场景</string>
+	<string name="remote_next">下一场景</string>
+	<string name="remote_home">主页</string>
+	
+	<string name="package_size_zero">包的大小为0，不能下载</string>
+	<string name="server_not_connect">正在连接中控。。。</string>
+	<string name="login_failure">密码错误,请重新输入</string>
+	<string name="login_success">登录成功</string>
+	<string name="nologin">未登录</string>
+	<!-- 二维码扫描 -->
+    <string name="scan_tip">请将二维码置于取景框内扫描</string>
+    <string name="scan_retry">二维码扫描出错啦,请重新扫描</string>
+    <string name="scan_title">扫一扫</string>
+    <string name="searchdevice">正在搜索可跟随的设备,请稍等&#8230;</string>
+    <string name="nodevicecanfollow">没有可以跟随的设备</string>
+    <string name="waitforfollow">正在等待跟随&#8230;</string>
+    <string name="loadingprompt">正在加载数据,请稍后&#8230;</string>
+    
+    <string name="app_exit_confirm">确认</string>
+	<string name="app_exit_content">确认退出吗？</string>
+	<string name="app_exit_yes">是</string>
+	<string name="app_exit_no">否</string>
+	
+	<string name="app_update_confirm">更新</string>
+	<string name="app_update_content">是否要更新吗？</string>
+	<string name="app_update_yes">是</string>
+	<string name="app_update_no">否</string>
+	
+	<string name="app_update_title">更新</string>
+	<string name="app_update_no_content">没用可用的更新</string>
+	<string name="app_update_exit">确定</string>
+	
+	<string name="package_delete_title">删除</string>
+	<string name="package_delete_content">该权限不能进行删除操作</string>
+	<string name="package_delete_exit">确定</string>
+	
+	<string name="package_download_title">下载</string>
+	<string name="package_download_content">没有此资源包的下载权限</string>
+	<string name="package_download_exit">确定</string>
+	
+	<string name="package_download_communication_title">下载</string>
+	<string name="package_download_communication_content">交流包不能下载</string>
+	<string name="package_download_communication_exit">确定</string>
+	
+	<string name="package_download_confirm">确认下载吗？</string>
+	<string name="package_download_yes">是</string>
+	<string name="package_download_no">否</string>
+	
+	<string name="download_package_remove_confirm">确认</string>
+	<string name="download_package_remove_content">确认删除吗？</string>
+	<string name="download_package_remove_yes">是</string>
+	<string name="download_package_remove_no">否</string>
+	
+	<string name="second_local_setting">设置</string>
+	<string name="localuserdefaultname">未设置名字</string>
+	<string name="onlineconnecttitle">正在连接中控...</string>
+	
+	<string name="shareapp">应用分享</string>
+	<string name="shareapphave">安装包存在</string>
+	<string name="shareappno">安装包不存在</string>
+	
+	<string name="second_local_senior">高级</string>
+	<string name="second_local_mainhome">主页</string>
+	<string name="second_local_feedback_open">反馈 开</string>
+	<string name="second_local_feedback_close">反馈 关</string>
+	<string name="qrcode_confirm_text">现在可以控制大屏幕：</string>
+	<string name="qrcode_not_found_screen">屏幕不在可控范围内</string>
+	<string name="qrcode_screen_error">二维码无法解析</string>
+	<string name="qrcode_screen_no">没有搜到屏幕</string>
+	
+	<string name="photograph">拍照</string>
+	<string name="answer">互动答题</string>
+	<string name="answer_submit">提交答题</string>
+	<string name="answer_submit_btn">提交</string>
+	<string name="answer_submit_success">答案已提交</string>
+	<string name="answer_submit_failure">答案提交失败</string>
+	
+	<string name="username">设置昵称</string>
+	<string name="second_interact_camera">拍照上传</string>
+	
+	<!-- 画笔 -->
+	<string name="sketchpadtool_pen">画笔</string>
+	<string name="sketchpadtool_eraser">橡皮擦</string>
+	<string name="sketchpadtool_strokesize">画笔大小</string>
+	<string name="sketchpadtool_eraser_size">橡皮擦大小</string>
+	<string name="sketchpadtool_undo">回退</string>
+	<string name="sketchpadtool_redo">重绘</string>
+	<string name="sketchpadtool_choose">选择图片</string>
+	<string name="sketchpadtool_save">保存</string>
+	<string name="sketchpadtool_load">加载</string>
+	<string name="sketchpadtool_bkcolor">背景颜色选择</string>
+	<string name="sketchpadtool_pencolor">画笔颜色选择</string>
+	<string name="sketchpadtool_clear">清除</string>
+	<string name="selectpicture_tip">正在搜索图片...</string>
+	<string name="selectpicture_done">确认</string>
+	<string name="selectpicture_cancel">取消</string>
+	<string name="selectpicture_nosdcard">There is no SDCard</string>
+	<string name="selectcolor_done">确认</string>
+	<string name="selectcolor_cancel">取消</string>
+	<string name="selectpicture_nopictures">There is no pictures in SDCard</string>
+	<string name="selectcolor_edit">编辑</string>
+	
+	<string name="online_change_permission">权限切换</string>
+	<string name="online_screen_lock">讲解</string>
+	<string name="online_screen_unlock">退出</string>
+	<string name="gallery_previous_anim">上一动画</string>
+	<string name="gallery_next_anim">下一动画</string>
+	<!-- end -->
+	
+	<string name="interact_gallery_select">相册</string>
+	<string name="interact_camera_select">拍照</string>
+	<string name="remote_no_screen">无屏幕</string>
+	<string name="remote_not_user">遥控不可用</string>
+	<string name="permission_change">权限变更</string>
+	<string name="not_connect_ice">当前未连接中控</string>
+	
+	<string name="newpkg">新增包:</string>
+    <string name="delpkg">删除:</string>
+    <string name="delfile">删除:</string>
+    <string name="newfile">新文件:文件所在资源包为-</string>
+    <string name="delallpkg">清除所有包</string>
+    
+    <string name="communication_name">交流</string>
+    <string name="interact_send">发送</string>
+    <string name="no_nickname">设置昵称</string>
+    <string name="interact_default_word">请输入文字参与互动</string>
+    
+    <string name="interact_sending">正在发送。。。</string>
+    <string name="interact_send_finish">发送成功</string>
+</resources>

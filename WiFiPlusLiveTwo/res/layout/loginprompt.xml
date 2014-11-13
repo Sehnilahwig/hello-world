@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <FrameLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:id="@+id/loginframelayout"
+		    android:layout_centerInParent="true"
+		    >
+		    <ImageView 
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:background="#b0000000"
+		        android:id="@+id/headMaskView"
+		        />
+	    <RelativeLayout
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent">
+		    <RelativeLayout
+		        android:id="@id/logineditlayout"
+			    android:layout_width="313dip"
+			    android:layout_height="205dip"
+			    android:layout_centerInParent="true"
+			    android:background="@drawable/login_background">
+		    
+			    <TextView
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:gravity="center"
+			        android:textSize="20sp"
+			        android:layout_marginTop="10dip"
+			        android:textColor="@android:color/black"
+			        android:textStyle="bold"
+			        android:id="@+id/prompt"
+			        android:text="@string/prompt" />
+			    <TextView
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_below="@id/prompt"
+			        android:gravity="center"
+			        android:textSize="18sp"
+			        android:layout_marginTop="10dip"
+			        android:id="@+id/desc"
+			        android:textColor="@android:color/black"
+			        android:text="@string/logindesc" />
+				<EditText
+			        android:layout_width="280dip"
+			        android:layout_height="34dip"
+			        android:layout_below="@id/desc"
+			        android:layout_centerHorizontal="true"
+			        android:id="@+id/password"
+			        android:inputType="textPassword"
+			        android:paddingLeft="1dip"
+			        android:focusable="true"
+			        android:background="@android:color/white"
+			        android:layout_marginTop="20dip" />
+				<RelativeLayout
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_gravity="center_horizontal"
+			        android:layout_alignParentBottom="true"   
+			        android:layout_marginBottom="5dip"   
+			        android:layout_marginLeft="3dip"
+			        android:layout_marginRight="3dip"  
+			        >
+				    <Button
+				        android:layout_width="153dip"
+				        android:layout_height="49dip"
+				        android:layout_alignParentLeft="true"
+				        android:background="@drawable/uploadcancel_btn"
+				        android:id="@+id/cancel"
+				        android:text="@string/cancel"
+				        android:textSize="20sp"
+				        android:textColor="#157EFB" />
+					<Button
+				        android:layout_width="153dip"
+				        android:layout_height="49dip"
+				        android:layout_alignParentRight="true"
+				        android:background="@drawable/uploadok_btn"
+				        android:id="@+id/confirm"
+				        android:text="@string/ensure"
+				        android:textSize="20sp"
+				        android:textColor="#157EFB" />
+			    </RelativeLayout>
+			 </RelativeLayout>
+		</RelativeLayout>
+	</FrameLayout>
+</RelativeLayout>

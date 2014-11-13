@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@id/localcontent"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:id="@id/localtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="79dip"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/local_title_bg" >
+
+            <ImageView
+                android:id="@id/localhead"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="5dip" />
+
+            <TextView
+                android:id="@id/localusername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/localhead"
+                android:text="@string/localuserdefaultname"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+
+            <ImageView
+                android:id="@id/localeye"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="5dip"
+                android:layout_marginRight="5dip"
+                android:layout_marginTop="5dip"
+                android:visibility="gone"
+                android:src="@drawable/eye_btn_bg" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/localtitle" >
+
+            <com.tvmining.wifiplus.swipelistview.LocalSwipeListView
+                android:id="@id/locallist"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:cacheColorHint="@null"
+                android:childIndicatorLeft="0dp"
+                android:dividerHeight="0dp"
+                android:fadingEdge="none"
+                android:fadingEdgeLength="0dp"
+                android:groupIndicator="@null"
+                android:divider="@null"
+                android:listSelector="#00000000"
+                android:scrollbarAlwaysDrawHorizontalTrack="true"
+		    	/>
+            
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <com.tvmining.wifiplus.view.WaterFallView
+        android:id="@id/waterfalllocal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/sharepackagebackground"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/sharebackground"
+        android:visibility="gone" />
+
+    <include
+        android:id="@id/qrcodecreateview"
+        layout="@layout/sharepackage"
+        android:visibility="gone" />
+
+</RelativeLayout>

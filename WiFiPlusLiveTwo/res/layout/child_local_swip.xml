@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="blocksDescendants"
+        android:padding="5dp"
+        android:tag="backview"
+        android:background="@color/online_btn_bg"
+        android:id="@+id/backview"
+        >
+    
+     <TextView
+        android:id="@id/localpackageupload"
+        android:layout_width="60dip"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:focusable="false"
+        android:gravity="center"
+        android:text="@string/local_package_upload"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+    
+     <ImageView
+         android:id="@id/localpackagedevider1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@id/localpackageupload"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="3dip"
+        android:src="@drawable/remote_top_devider"
+         />
+     
+     
+    <TextView
+        android:id="@id/localpackagedelete"
+        android:layout_width="60dip"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_centerVertical="true"
+        android:layout_alignBaseline="@id/localpackagedevider1"
+        android:layout_toLeftOf="@id/localpackageupload"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:focusable="false"
+        android:text="@string/local_package_delete" />
+    
+    <ImageView
+         android:id="@id/localpackagedevider2"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_toLeftOf="@id/localpackagedelete"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="3dip"
+        android:src="@drawable/remote_top_devider"
+         />
+    
+    <TextView
+        android:id="@id/localdownloadpackagedelete"
+        android:layout_width="60dip"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:focusable="false"
+        android:visibility="gone"
+        android:text="@string/local_package_delete" />
+    
+    <TextView
+        android:id="@id/localuploadpackagedelete"
+        android:layout_width="60dip"
+        android:layout_height="match_parent"
+        android:layout_margin="2dip"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:focusable="false"
+        android:visibility="gone"
+        android:text="@string/cancel"
+         />
+    
+    <TextView
+        android:id="@id/localpackageshare"
+        android:layout_width="60dip"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginRight="10dip"
+        android:layout_centerVertical="true"
+        android:layout_alignBaseline="@id/localpackagedelete"
+        android:layout_toLeftOf="@id/localpackagedevider2"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:focusable="false"
+        android:text="@string/local_package_share" />
+    
+    </RelativeLayout>
+    
+    
+        <RelativeLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:descendantFocusability="blocksDescendants"
+		        android:gravity="center_vertical"
+		        android:padding="5dp"
+		        android:id="@+id/frontview"
+		        android:tag="frontview" android:background="@android:color/white">
+		
+            <RelativeLayout
+                android:id="@+id/localpackageviewlayout"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:descendantFocusability="blocksDescendants"
+		        android:layout_alignParentLeft="true"
+			    android:layout_centerVertical="true">
+            
+		        <com.tvmining.wifiplus.view.ZoomImageView
+			        android:id="@id/localpackageview"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_centerInParent="true"
+			        android:scaleX="0.9"
+            		android:scaleY="0.9"
+			         />
+			
+		        <ImageView
+			        android:id="@+id/localplayimage"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_centerInParent="true"
+			        android:visibility="gone"
+			        android:scaleX="0.8"
+            		android:scaleY="0.8"
+			        android:background="@drawable/play" />
+		        </RelativeLayout>
+			    <TextView
+			        android:id="@id/localpackagename"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="10dip"
+			        android:textSize="18sp"
+			        android:singleLine="true" 
+					android:ellipsize="end" 
+			        android:textColor="@color/black"
+			        android:layout_toRightOf="@id/localpackageviewlayout"
+			        android:layout_alignParentTop="true" />
+			
+			    <TextView
+			        android:id="@id/localpackagesize"
+			        android:layout_width="wrap_content"
+			        android:layout_height="20dip"
+			        android:layout_toRightOf="@id/localpackageviewlayout"
+			        android:layout_alignParentBottom="true"
+			        android:layout_marginBottom="10dip"
+			        android:layout_marginLeft="10dip"
+			        android:textColor="@color/Grey"
+			        android:textSize="11sp" />
+			    
+			    <TextView
+			        android:id="@id/localpackagetype"
+			        android:layout_width="wrap_content"
+			        android:layout_height="20dip"
+			        android:layout_toRightOf="@id/localpackageviewlayout"
+			        android:layout_centerVertical="true"
+			        android:layout_marginLeft="10dip"
+			        android:textColor="@android:color/white"
+			        android:textSize="14sp"
+			        android:background="@color/Grey" />
+			    
+			   
+			    
+			    <ProgressBar
+			        android:id="@id/localprogressbar"
+			        style="@android:style/Widget.ProgressBar.Horizontal"
+			        android:layout_width="185dip"
+			        android:layout_height="10dip"
+			        android:layout_alignParentBottom="true"
+			        android:layout_marginLeft="10dip"
+			        android:layout_toRightOf="@id/localpackageviewlayout"
+			        android:layout_below="@id/localpackagename"
+			        android:max="100"
+			        android:visibility="gone"
+			        android:progressDrawable="@drawable/progressbar_style" />
+    	</RelativeLayout>
+    
+    
+  
+
+</FrameLayout>

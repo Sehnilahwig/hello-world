@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/setheadframelayout" >
+    
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="250dip"
+	    android:orientation="vertical"
+	    android:id="@+id/setheadmenu"
+	    android:background="@drawable/menu_background"
+	    android:gravity="center_horizontal"
+	    android:layout_gravity="bottom"
+	     >
+
+	    <EditText
+	        android:id="@+id/nickname"
+	        android:layout_width="202dip"
+	        android:layout_height="wrap_content"
+	        android:paddingLeft="3dip"
+	        android:textColor="@android:color/white" />
+
+	    <Button 
+	        android:layout_width="wrap_content"
+	        android:layout_height="50dip"
+	        android:id="@+id/OK"
+	        android:layout_marginTop="25dip"
+	    	android:background="@drawable/pic_select_bg_btn"
+	    	android:text="确定"
+	    	android:textSize="20sp"
+	        />
+	    <Button 
+	        android:layout_width="wrap_content"
+	        android:layout_height="50dip"
+	        android:id="@+id/cancel"
+	        android:layout_marginTop="30dip"
+	    	android:text="@string/cancel"
+	    	android:textColor="@android:color/white"
+	    	android:background="@drawable/pic_selectcancel_bg_btn"
+	    	android:textSize="20sp"
+	        />
+	</LinearLayout>
+</FrameLayout>
